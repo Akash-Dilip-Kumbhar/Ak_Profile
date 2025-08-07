@@ -1,0 +1,40 @@
+
+{
+  "Modules": [
+    {
+      "name": "Onboarding Icons",
+
+      "images": [
+        {"id":1,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/476/476863.png",
+          "title": "Mountain Lake",
+          "path1":"https://cdn-icons-png.flaticon.com/512/15356/15356419.png",
+          "path2":""
+
+        },
+          
+        { "id":2,                                  
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/16771/16771050.png",
+          "title": "Forest Path",
+          "path1":"",
+          "path2":""    
+
+        }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "images": [
+        { "id":1,
+          "mainImage": "arch-main-1.jpg",
+          "title": "Modern Building"
+        },
+        { "id":2,
+          "mainImage": "arch-main-2.jpg",
+          "title": "Historic Castle"
+        }
+      ]
+    }
+
+  ]
+}
