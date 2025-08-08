@@ -1,38 +1,274 @@
-
 {
   "Modules": [
     {
       "name": "Onboarding Icons",
-
       "images": [
-        {"id":1,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/476/476863.png",
-          "title": "Mountain Lake",
-          "path1":"https://cdn-icons-png.flaticon.com/512/15356/15356419.png",
-          "path2":""
-
+        {
+          "id": 1,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/11445/11445176.png",
+          "title": "Type",
+          "path1": "",
+          "path2": "https://cdn-icons-png.flaticon.com/512/11444/11444991.png"
         },
-          
-        { "id":2,                                  
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/16771/16771050.png",
-          "title": "Forest Path",
-          "path1":"",
-          "path2":""    
-
+        {
+          "id": 2,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/476/476863.png",
+          "title": "Group",
+          "path1": "https://cdn-icons-png.flaticon.com/512/4541/4541450.png",
+          "path2": ""
+        },
+        {
+          "id": 3,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "level",
+          "path1": "https://cdn-icons-png.flaticon.com/512/13733/13733413.png",
+          "path2": "https://cdn-icons-png.flaticon.com/512/9362/9362410.png"
+        },
+        {
+          "id": 4,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Documents",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 5,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Checklist",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 6,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "verfication Type",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 7,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Qualification",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 8,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Caste Category",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 9,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Religion",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 10,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Language",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 11,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Skills",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 12,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "State",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 13,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Pincode",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 14,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Birthday",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 15,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Critical Stage",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 16,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Series",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 17,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Assets",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 18,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Wage Category",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 19,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Line Master",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 20,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Manpower Category",
+          "path1": "",
+          "path2": ""
         }
       ]
     },
     {
-      "name": "Architecture",
+      "name": "HR Space",
       "images": [
-        { "id":1,
-          "mainImage": "arch-main-1.jpg",
-          "title": "Modern Building"
+        {           
+          "id": 1,
+           "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Type",
+          "path1": "",
+          "path2": ""
         },
-        { "id":2,
-          "mainImage": "arch-main-2.jpg",
-          "title": "Historic Castle"
+        {
+          "id": 2,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Vendor",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 3,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Directory",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 4,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "left Employee List",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 5,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Report",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 6,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Block Employee",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 7,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Confirmation",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 8,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Appointment Letter",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 9,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Directory",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 10,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Organisation Chart Mapping",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 11,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Warning",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 12,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Employee Transfer",
+          "path1": "",
+          "path2": ""
         }
+      ]
+    },
+    {
+      "name": "Dashboard ",
+
+      "images": [
+        {
+          "id": 1,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Recruitment",
+          "path1": "",
+          "path2": ""
+        },  
+        {
+          "id": 2,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Operation",
+          "path1": "",
+          "path2": ""
+        },
+        {
+          "id": 3,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Onbording",
+          "path1": "",
+          "path2": ""
+        },  
+        {
+          "id": 4,
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "title": "Attendance",
+          "path1": "",
+          "path2": ""
+        }
+
+
+
       ]
     }
 

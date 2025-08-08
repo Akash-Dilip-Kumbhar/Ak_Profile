@@ -59,110 +59,158 @@
     </navbar>
 
     <div id="fullpage">
-          <div class="section active hero">Some section</div>
-        <div class="section">
-            <div class="container">
-            <div class="sectionHeading text-center">
-                <div class="text"><span>Onboarding Icons</span></div>
-            </div>
-            <div class="iconsSection">
-        
-                <div class="iconBx">
-                    <img src="https://cdn-icons-png.flaticon.com/512/476/476863.png" alt="Onboarding Icons"
-                        class="module-image" download>
-                        
+        <div class="section active hero">Some section</div>
+    </div>
 
-                    <div class="title">Mountain Lake</div>
-                    <div class="btnGroup">
+    <script>
+        function toggleSection(button) {
+            // Toggle the clicked section
+            const iconBx = button.closest('.iconBx');
+            const alternativeSection = iconBx.querySelector('.alternativeSection');
+            const icon = button.querySelector('i');
 
- <button class="btn btn-sm"><i class="material-symbols-outlined">add_circle</i></button> 
-                 <button class="btn btn-sm"><a src="https://cdn-icons-png.flaticon.com/512/476/476863.png" download><i class="material-symbols-outlined" download>download</i></a></button>
-                    </div>
-                
-
-
-
-                </div>
-        
-                <div class="iconBx">
-                    <img src="https://cdn-icons-png.flaticon.com/512/16771/16771050.png" alt="Onboarding Icons"
-                        class="module-image">
-                    <div class="title">Forest Path</div>
-                </div>
-        
-            </div>
-            </div>
-        </div>
-    </div>   
-<script>
-    const fullPage = document.querySelector('#fullpage');
-    fetch('/Img.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
+            if (alternativeSection.style.display === 'none') {
+                alternativeSection.style.display = 'flex';
+                icon.style.transform = 'rotate(45deg)';
+                iconBx.style.width = 'fit-content';
+                iconBx.classList.add('glow');
+            } else {
+                alternativeSection.style.display = 'none';
+                icon.style.transform = 'rotate(0deg)';
+                iconBx.style.width = 'fit-content';
+                iconBx.classList.remove('glow');
             }
-            return response.json();
-        })
-        .then(data => {
-            const modules = data.Modules;
-            
-            modules.forEach(module => {
-                const section = document.createElement('div');
-                section.classList.add('section');
-                
-                const imagesHTML = module.images
-                    .filter(image => image && image.mainImage)
-                    .map(image => `
-                    <div class="iconBx"> 
-                        <img src="${image.mainImage}" alt="${module.name}" class="module-image"> 
-                        <div class="title">${image.title}</div>
-${image.path1 ? `<img src="${image.path1}" alt="${module.name}" class="AlternativeImg">` : ''}
-                       ${image.path2 ? `<img src="${image.path2}" alt="${module.name}" class="module-image">` : ''}
+        }
+    </script>
 
+    <script>
+        const fullPage = document.querySelector('#fullpage');
+        fetch('/Img.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const modules = data.Modules;
+
+                modules.forEach(module => {
+                    const section = document.createElement('div');
+                    section.classList.add('section');
+
+                    const imagesHTML = module.images
+                        .filter(image => image && image.mainImage)
+                        .map(image =>
+                            ` <div class="iconBx">
+                        <div class="main-image">
+                            <div class="module-image">
+                                <img src="${image.mainImage}" alt="${image.title}">
+                            </div>
+                            <div class="title text-center">${image.title}</div>
+                            <div class="btnGroup">
+                                ${(image.path1 || image.path2 || image.path3) ?
+                                `<button class="btn btn-sm openSection" onclick="toggleSection(this)">
+                                    <i class="material-symbols-outlined">add_circle</i>
+                                </button>` : ''}
+                                <a href="${image.mainImage}" target="_blank" download="${image.title}">
+                                    <button class="btn btn-sm">
+                                        <i class="material-symbols-outlined" download>download</i>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
-                    `)
-                    .join('');
 
-                section.innerHTML = `
+                        ${(image.path1 || image.path2 || image.path3) ?
+                                `<div class="alternativeSection" style="display: none;">
+                            ${image.path1 ?
+                                    `<div class="alternative-image alternative-image-1">
+                                <div class="module-image">
+                                    <img src="${image.path1}" alt="${image.title}">
+                                </div>
+                                <div class="title text-center">${image.title}</div>
+
+                                <div class="btnGroup">
+                                    <a href="${image.path1}" target="_blank" download="${image.title}"> 
+                                        <button class="btn btn-sm">
+                                            <i class="material-symbols-outlined">download</i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>` : ''}
+
+                            ${image.path2 ?
+                                    `<div class="alternative-image alternative-image-2">
+                                <div class="module-image">
+                                    <img src="${image.path2}" alt="${image.title}">
+                                </div>
+                                <div class="title text-center">${image.title}</div>
+                                <div class="btnGroup">
+                                    <a href="${image.path2}" target="_blank" download="${image.title}">
+                                        <button class="btn btn-sm">
+                                            <i class="material-symbols-outlined">download</i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>` : ''}
+
+                            ${image.path3 ?
+                                    `<div class="alternative-image alternative-image-3">
+                                <div class="module-image">
+                                    <img src="${image.path3}" alt="${image.title}">
+                                </div>
+                                <div class="title text-center">${image.title}</div>
+                                <div class="btnGroup">
+                                    <a href="${image.path3}" target="_blank" download="${image.title}">
+                                        <button class="btn btn-sm">
+                                            <i class="material-symbols-outlined">download</i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>` : ''}
+
+                        </div>` : ''}
+                    </div>
+                    `).join('');
+
+                    section.innerHTML = `
+                    <div class="container">
                     <div class="sectionHeading text-center">
                         <div class="text"><span>${module.name}</span></div>
                     </div>
                     <div class="iconsSection">
                             ${imagesHTML}
                     </div>
+                    </div>
                 `;
-                
-                fullPage.appendChild(section);
-            });
-        })
-        .catch(error => {
-            console.error('Error loading modules:', error);
-        });
-</script>
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    fullPage.appendChild(section);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading modules:', error);
+            });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.37/fullpage.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.37/fullpage.extensions.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.37/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.37/fullpage.extensions.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.37/vendors/easings.min.js"></script>
-
 
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             new fullpage('#fullpage', {
-              
                 navigation: true,
-                 //options here
-    autoScrolling:true,
-    scrollHorizontally: true,
-    easing: 'easeInOutCubic',
-    easingcss3: 'ease-in-out',
-    scrollBar: true,
-  
-
-
+                //options here
+                scrollBar: false,
+                paddingBottom: '100px',
+                autoScrolling: false,
+                easing: 'easeInOutCubic',
+                easingcss3: 'ease-in-out',
+                scrollBar: true,
             });
         });
     </script>
