@@ -15,13 +15,13 @@
           "mainImage": "https://cdn-icons-png.flaticon.com/512/476/476863.png",
           "title": "Group",
           "path1": "https://cdn-icons-png.flaticon.com/512/4541/4541450.png",
-          "path2": ""
+          "path2": "https://cdn-icons-png.flaticon.com/512/11531/11531458.png"
         },
         {
           "id": 3,
           "mainImage": "https://cdn-icons-png.flaticon.com/512/13733/13733413.png",
           "title": "level",
-          "path1": "",
+          "path1": "https://cdn-icons-png.flaticon.com/512/17197/17197338.png",
           "path2": "https://cdn-icons-png.flaticon.com/512/9362/9362410.png"
         },
         {
@@ -58,45 +58,50 @@
         },
         {
           "id": 8,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/11531/11531428.png",
           "title": "Caste Category",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/4951/4951829.png ",
+          "path2": "https://cdn-icons-png.flaticon.com/512/18041/18041178.png",
+          "path3":"https://cdn-icons-png.flaticon.com/512/3053/3053788.png"
         },
         {
           "id": 9,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/6037/6037393.png",
           "title": "Religion",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/10266/10266018.png",
+          "path2": "https://cdn-icons-png.flaticon.com/512/18041/18041178.png",
+          "path3":"https://cdn-icons-png.flaticon.com/512/18704/18704142.png"
         },
         {
           "id": 10,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
           "title": "Language",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/3898/3898150.png",
+          "path2": "https://cdn-icons-png.flaticon.com/512/17023/17023009.png",
+          "path3":"https://cdn-icons-png.flaticon.com/512/8361/8361117.png"
         },
         {
           "id": 11,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/10484/10484260.png",
           "title": "Skills",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/10484/10484259.png",
+          "path2": "https://cdn-icons-png.flaticon.com/512/2017/2017273.png"
         },
         {
           "id": 12,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/2160/2160215.png",
           "title": "State",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/4951/4951829.png ",
+          "path2": "https://cdn-icons-png.flaticon.com/512/4003/4003667.png",
+          "path3":"   https://cdn-icons-png.flaticon.com/512/1243/1243420.png "
         },
         {
           "id": 13,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
           "title": "Pincode",
-          "path1": "",
-          "path2": ""
+          "path1": "https://cdn-icons-png.flaticon.com/512/15366/15366108.png",
+          "path2": "https://cdn-icons-png.flaticon.com/512/4821/4821951.png",
+          "path3":"https://cdn-icons-png.flaticon.com/512/1527/1527531.png"
         },
         {
           "id": 14,
