@@ -19,38 +19,42 @@
         },
         {
           "id": 3,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/13733/13733413.png",
           "title": "level",
-          "path1": "https://cdn-icons-png.flaticon.com/512/13733/13733413.png",
+          "path1": "",
           "path2": "https://cdn-icons-png.flaticon.com/512/9362/9362410.png"
         },
         {
           "id": 4,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage":"https://cdn-icons-png.flaticon.com/512/11287/11287374.png" ,
           "title": "Documents",
-          "path1": "",
-          "path2": ""
+          "path1":  "https://cdn-icons-png.flaticon.com/512/11287/11287332.png",
+          "path2":  "https://www.svgrepo.com/show/261880/document.svg"
         },
         {
           "id": 5,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/4996/4996685.png",
           "title": "Checklist",
-          "path1": "",
-          "path2": ""
+          "path1": "https://www.svgrepo.com/show/261901/clipboard.svg",
+          "path2": "https://cdn-icons-png.flaticon.com/512/2666/2666505.png",
+          "path3": "https://www.svgrepo.com/show/261880/document.svg"
+
         },
         {
           "id": 6,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://cdn-icons-png.flaticon.com/512/14991/14991778.png",
           "title": "verfication Type",
-          "path1": "",
-          "path2": ""
+          "path1": "   https://cdn-icons-png.flaticon.com/512/14991/14991698.png ",
+          "path2": "https://cdn-icons-png.flaticon.com/512/14991/14991735.png",
+          "path3":"  https://cdn-icons-png.flaticon.com/512/10655/10655644.png "
         },
         {
           "id": 7,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://www.svgrepo.com/show/382151/education-graduation-learning-school-study.svg",
           "title": "Qualification",
-          "path1": "",
-          "path2": ""
+          "path1": "https://www.svgrepo.com/show/382159/certificates-education-learning-medal-school-study.svg",
+          "path2": "https://www.svgrepo.com/show/382156/certificates-champion-education-learning-medal-school.svg",
+          "path3":"https://cdn-icons-png.flaticon.com/512/3976/3976631.png"
         },
         {
           "id": 8,
