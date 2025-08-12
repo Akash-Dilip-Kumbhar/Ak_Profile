@@ -105,10 +105,13 @@
         },
         {
           "id": 14,
-          "mainImage": "https://cdn-icons-png.flaticon.com/512/15402/15402170.png",
+          "mainImage": "https://www.svgrepo.com/show/401192/birthday-cake.svg",
           "title": "Birthday",
-          "path1": "",
-          "path2": ""
+          "path1": " https://cdn-icons-png.flaticon.com/512/6794/6794503.png ",
+          "path2": "https://cdn-icons-png.flaticon.com/512/2766/2766438.png",
+          "path3":"https://cdn-icons-png.flaticon.com/512/3991/3991805.png",
+          "path4":"https://cdn-icons-png.flaticon.com/512/10512/10512792.png"
+
         },
         {
           "id": 15,
