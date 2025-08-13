@@ -109,7 +109,8 @@
                             </div>
                             <div class="title text-center">${image.title}</div>
                             <div class="btnGroup">
-                                ${(image.path1 || image.path2 || image.path3) ?
+                                ${(image.path1 || image.path2 || image.path3 || image.path4) ?
+
                                 `<button class="btn btn-sm openSection" onclick="toggleSection(this)">
                                     <i class="material-symbols-outlined">add_circle</i>
                                 </button>` : ''}
@@ -121,7 +122,7 @@
                             </div>
                         </div>
 
-                        ${(image.path1 || image.path2 || image.path3) ?
+                        ${(image.path1 || image.path2 || image.path3 || image.path4) ?
                                 `<div class="alternativeSection" style="display: none;">
                             ${image.path1 ?
                                     `<div class="alternative-image alternative-image-1">
@@ -162,6 +163,21 @@
                                 <div class="title text-center">${image.title}</div>
                                 <div class="btnGroup">
                                     <a href="${image.path3}" target="_blank" download="${image.title}">
+                                        <button class="btn btn-sm">
+                                            <i class="material-symbols-outlined">download</i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>` : ''}
+
+                            ${image.path4 ?
+                                    `<div class="alternative-image alternative-image-4">
+                                <div class="module-image">
+                                    <img src="${image.path4}" alt="${image.title}">
+                                </div>
+                                <div class="title text-center">${image.title}</div>
+                                <div class="btnGroup">
+                                    <a href="${image.path4}" target="_blank" download="${image.title}">
                                         <button class="btn btn-sm">
                                             <i class="material-symbols-outlined">download</i>
                                         </button>
